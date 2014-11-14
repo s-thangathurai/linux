@@ -24,7 +24,7 @@ sudo apt-get install google-chrome-stable
 > Let's start the chrome using following commands.
 
 ```sh
- google-chrome
+google-chrome
  	[or]
 google-chrome-stable
 ```
