@@ -9,6 +9,7 @@
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 ```
+
 ##### **Step 2: Install/Upgrade Google Chrome**
 
 > After adding Google chrome repository in our system use following commands to install latest Google chrome stable release. 
@@ -25,5 +26,5 @@ sudo apt-get install google-chrome-stable
 ```sh
  google-chrome
  	[or]
- google-chrome-stable
- ```
+google-chrome-stable
+```
