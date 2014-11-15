@@ -1,7 +1,7 @@
 # **Install youtube downloader in 14.04**
 ---
 
-##### Install youtube_dl use following command
+##### Install youtube_dl using following command
 
 ```sh
 sudo apt-get install youtube-dl
@@ -13,7 +13,7 @@ sudo apt-get install youtube-dl
 sudo pip install --upgrade youtube_dl
 ```
 
-# **Note**
+### **Note**
 ---
 
 ##### If you faced any Warning or Exception try to install the following command
@@ -27,5 +27,5 @@ sudo easy_install pip
 ```sh
 sudo pip install --upgrade youtube_dl
 ```
-
+---
 > Run the second command to start upgrade.
