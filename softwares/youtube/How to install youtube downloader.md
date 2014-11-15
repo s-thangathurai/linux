@@ -13,7 +13,7 @@ sudo apt-get install youtube-dl
 sudo pip install --upgrade youtube_dl
 ```
 
-# ** Note **
+# **Note**
 ---
 
 ##### If you faced any Warning or Exception try to install the following command
@@ -22,7 +22,7 @@ sudo pip install --upgrade youtube_dl
 sudo apt-get install python-setuptools
 sudo easy_install pip
 ```
-### Install pip command before upgrade youtube_dl
+##### Install pip command before upgrade youtube_dl
 
 ```sh
 sudo pip install --upgrade youtube_dl
