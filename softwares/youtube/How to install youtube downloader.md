@@ -16,12 +16,16 @@ sudo pip install --upgrade youtube_dl
 ### **Note**
 ---
 
-##### If you faced any Warning or Exception try to install the following command
+##### If you faced any Warning or Exception, try to install the following command. see the below image for more.
 
 ```sh
 sudo apt-get install python-setuptools
 sudo easy_install pip
 ```
+
+![youtube]()
+
+
 ##### Install pip command before upgrade youtube_dl
 
 ```sh
