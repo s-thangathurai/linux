@@ -23,7 +23,7 @@ sudo apt-get install python-setuptools
 sudo easy_install pip
 ```
 
-![youtube]()
+![youtube](https://github.com/s-thangathurai/linux/raw/master/softwares/youtube/screenshots/youtube.png)
 
 
 ##### Install pip command before upgrade youtube_dl
