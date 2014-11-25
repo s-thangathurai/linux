@@ -1,25 +1,27 @@
 # **Install jdk/jre 7u67 in 14.04 64-bit**
 ---
 
-* **Download jdk using the below command and extract:**
+##### **Download jdk from the given url and extract:**
 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+![Click Here to download JDK7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
 ```sh
 sudo tar xvzf jdk-7u67-linux-x64.tar.gz
 ```
 
-* **Move the extracted file to /usr/local/java:**
+##### **Move the extracted file to /usr/local/java:**
 
 ```sh
 sudo mv jdk1.7.0_71 /usr/local/java
 ```
-* **Edit the system path file:**
+
+##### **Edit the system path file:**
 
 ```sh
 sudo vi /etc/profile
 ```
-* **Scroll down to the end of the file using the arrow keys and add the following lines below to the end of your /etc/profile file:**
+
+##### **Scroll down to the end of the file using the arrow keys and add the following lines below to the end of your /etc/profile file:**
 
 ```sh
 JAVA_HOME=/usr/local/java/jdk1.7.0_71
@@ -31,7 +33,7 @@ export PATH
 ```
 > Save the /etc/profile file and exit.
 
-* **Inform your Ubuntu linux system where your oracle jdk is located:**
+##### **Inform your Ubuntu linux system where your oracle jdk is located:**
 
 * This will tell the system that the new version of Java Oracle is available for use
 
@@ -45,7 +47,7 @@ sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.7.0_71/bin/javac" 1
 ```
 
-* **Inform your Ubuntu linux System that Oracle Java JDk must be the default Java:**
+##### **Inform your Ubuntu linux System that Oracle Java JDk must be the default Java:**
 
 ```sh
 sudo update-alternatives --set java /usr/local/java/jdk1.7.0_45/jre/bin/java
@@ -61,7 +63,7 @@ sudo update-alternatives --set javac /usr/local/java/jdk1.7.0_45/bin/javac
 ```sh
 sudo update-alternatives --set javaws /usr/local/java/jdk1.7.0_45/bin/javaws
 ```
-* **Reload your system wide PATH /etc/profile by typing the following command
+##### **Reload your system wide PATH /etc/profile by typing the following command:**
 
 ```sh
 . /etc/profile
