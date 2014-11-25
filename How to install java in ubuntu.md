@@ -3,7 +3,7 @@
 
 ##### **Download jdk from the given url and extract:**
 
-![Click Here to download JDK7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+[Click Here to download JDK7 from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
 ```sh
 sudo tar xvzf jdk-7u67-linux-x64.tar.gz
@@ -58,17 +58,13 @@ sudo update-alternatives --set java /usr/local/java/jdk1.7.0_71/jre/bin/java
 ```sh
 sudo update-alternatives --set javac /usr/local/java/jdk1.7.0_71/bin/javac
 ```
-* This command will set the java web start for the system
 
-```sh
-sudo update-alternatives --set javaws /usr/local/java/jdk1.7.0_71/bin/javaws
-```
 ##### **Reload your system wide PATH /etc/profile by typing the following command:**
 
 ```sh
 . /etc/profile
 ```
-### **Check the version using the below command:**
+### **Check a version, using the below command:**
 
 ```sh
 java -version
