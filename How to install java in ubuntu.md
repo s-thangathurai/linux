@@ -1,4 +1,4 @@
-# **Install jdk/jre 7u67 in 14.04 64-bit**
+### **Install jdk 7u71 in Ubuntu 14.04**
 ---
 
 ##### **Download jdk from the given url and extract:**
@@ -6,7 +6,7 @@
 [Click Here to download JDK7 from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
 ```sh
-sudo tar xvzf jdk-7u67-linux-x64.tar.gz
+sudo tar xvzf jdk-7u71-linux-x64.tar.gz
 ```
 
 ##### **Move the extracted file to /usr/local/java:**
