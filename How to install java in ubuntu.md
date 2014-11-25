@@ -64,7 +64,7 @@ sudo update-alternatives --set javac /usr/local/java/jdk1.7.0_71/bin/javac
 ```sh
 . /etc/profile
 ```
-### **Check a version, using the below command:**
+##### **Check a version, using the below command:**
 
 ```sh
 java -version
