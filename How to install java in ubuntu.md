@@ -50,21 +50,26 @@ sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk
 ##### **Inform your Ubuntu linux System that Oracle Java JDk must be the default Java:**
 
 ```sh
-sudo update-alternatives --set java /usr/local/java/jdk1.7.0_45/jre/bin/java
+sudo update-alternatives --set java /usr/local/java/jdk1.7.0_71/jre/bin/java
 ```
 
 * This command will set the java compiler for the system
 
 ```sh
-sudo update-alternatives --set javac /usr/local/java/jdk1.7.0_45/bin/javac
+sudo update-alternatives --set javac /usr/local/java/jdk1.7.0_71/bin/javac
 ```
 * This command will set the java web start for the system
 
 ```sh
-sudo update-alternatives --set javaws /usr/local/java/jdk1.7.0_45/bin/javaws
+sudo update-alternatives --set javaws /usr/local/java/jdk1.7.0_71/bin/javaws
 ```
 ##### **Reload your system wide PATH /etc/profile by typing the following command:**
 
 ```sh
 . /etc/profile
+```
+### **Check the version using the below command:**
+
+```sh
+java -version
 ```
